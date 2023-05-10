@@ -47,7 +47,9 @@ median_unemployment = data[' Estimated Unemployment Rate (%)'].median()
 print('Mean Unemployment Rate: ',{mean_unemployment})
 print('Median Unemployment Rate:' ,{median_unemployment})
 
-
+#reading second dataset
+data2 = pd.read_csv("Unemployment_Rate_upto_11_2020.csv")
+data2
 
 data2.info
 
